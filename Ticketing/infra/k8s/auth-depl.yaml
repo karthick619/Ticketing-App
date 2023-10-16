@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: karti619/auth
+          image: karti18/auth
 ---
 apiVersion: v1
 kind: Service

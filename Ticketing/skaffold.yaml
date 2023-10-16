@@ -2,7 +2,7 @@ apiVersion: skaffold/v2alpha3
 kind: Config
 build:
   artifacts:
-    - image: karti619/auth
+    - image: karti18/auth
       context: auth
       docker:
         dockerfile: Dockerfile
