@@ -1,8 +1,10 @@
 apiVersion: skaffold/v2alpha3
 kind: Config
 build:
+  googleCloudBuild:
+    projectId: ticketing-dev-401911
   artifacts:
-    - image: karti18/auth
+    - image: us.gcr.io/ticketing-dev-401911/auth
       context: auth
       docker:
         dockerfile: Dockerfile
